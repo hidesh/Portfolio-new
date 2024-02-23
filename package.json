@@ -2,7 +2,7 @@
   "name": "portfolio-new",
   "version": "1.0.0",
   "description": "",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "npx tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch"
