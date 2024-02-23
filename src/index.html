@@ -20,9 +20,9 @@
   </script>
 </head>
 <body>
-  <header class="flex flex-row items-center justify-between py-3 px-2">
+  <header class="flex flex-row items-center justify-between py-3 px-2" id="home">
     <div class="flex flex-row items-center">
-      <a href="/" title="hidesh">
+      <a href="#home" title="hidesh">
         <img src="../src/public/hidesh-logo.svg" alt="hidesh logo" class="size-14">
       </a>
       <h1 class="pl-2 text-2xl">Hidesh's Portfolio</h1>
@@ -40,7 +40,7 @@
           </a>
         </li>
         <li>
-          <a href="/" target="_blank" rel="noopener">
+          <a href="mailto:hidesh@live.dk" target="_blank" rel="noopener">
             <img src="../src/public/mail-icon.svg" alt="Contact Mail" class="size-14">
           </a>
         </li>
@@ -82,28 +82,28 @@
       <div class="p-5 flex flex-col shadow-xl rounded-lg">
         <!--Række 1-->
           <div class="flex flex-row">
-            <img src="../src/public/icons/html-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/css-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/javascript-icon.svg" alt="" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/html-icon.svg" alt="Html icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/css-icon.svg" alt="Css icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/javascript-icon.svg" alt="javascript icon" class="px-5 size-28 hover:size-32">
           </div>
         <!--Række 2-->
           <div class="flex flex-row">
-            <img src="../src/public/icons/tailwind-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/bootstrap-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/mysql-icon.svg" alt="" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/tailwind-icon.svg" alt="tailwind icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/bootstrap-icon.svg" alt="bootstrap icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/mysql-icon.svg" alt="mysql icon" class="px-5 size-28 hover:size-32">
           </div>
 
         <!--Række 3-->
           <div class="flex flex-row">
-            <img src="../src/public/icons/react-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/nextjs-icon.svg" alt="" class="px-5 size-28 hover:size-32">
-            <img src="../src/public/icons/angular-icon.svg" alt="" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/react-icon.svg" alt="react icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/nextjs-icon.svg" alt="nextjs icon" class="px-5 size-28 hover:size-32">
+            <img src="../src/public/icons/angular-icon.svg" alt="angular icon" class="px-5 size-28 hover:size-32">
           </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-black text-white py-20">
+  <section class="bg-black text-white py-20" id="contact">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-yellow-500 mb-6">Contact Me</h2>
       <form action="your-server-endpoint" method="POST" class="space-y-8">
@@ -139,26 +139,30 @@
 
   <nav class="fixed inset-x-0 bottom-0 bg-black">
     <div class="flex justify-center space-x-4">
-      <button class="text-yellow-500 p-4">
-        <a href="#worked-with">
-          Home
+        <a href="#home">
+          <button class="text-yellow-500 p-4"> 
+            Home
+          </button>
         </a>
-      </button>
-      <button class="text-yellow-500 p-4">
-        <a href="#worked-with">
-          About me
+      
+        <a href="#about-me">
+          <button class="text-yellow-500 p-4">
+            About me
+          </button>
         </a>
-      </button>
-      <button class="text-yellow-500 p-4">
+
         <a href="#worked-with">
-          Experience
+          <button class="text-yellow-500 p-4">
+            Experience
+          </button>
         </a>
-      </button>
-      <button class="text-yellow-500 p-4">
-        <a href="#worked-with">
+
+     
+        <a href="#contact">
+          <button class="text-yellow-500 p-4">
           Contact
+          </button>
         </a>
-      </button>
     </div>
   </nav>
 </body>
