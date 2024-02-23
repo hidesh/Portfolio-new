@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hidesh's Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="src/bulma/style/style.css">
+  <link rel="stylesheet" href="/src/bulma/style/style.css">
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const jobTitles = ['an UI/UX Designer', 'a Digital Designer', 'a Photographer', 'a Web Developer', 'a Backend Developer'];
@@ -24,20 +24,20 @@
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="/" class="navbar-item" title="hidesh">
-        <img src="/src/public/hidesh-logo.svg" alt="hidesh logo" height="50" width="50">
+        <img src="/src/public/hidesh-logo.svg" alt="hidesh logo" height="128" width="128">
       </a>
       <span class="navbar-item">Hidesh's Portfolio</span>
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
         <a href="https://github.com/hidesh" class="navbar-item">
-          <img src="/src/public/github-logo.svg" alt="Github Logo" class="w">
+          <img src="/src/public/github-logo.svg" alt="Github Logo" class="image is-128x128">
         </a>
         <a href="https://www.linkedin.com/in/hidesh" class="navbar-item">
-          <img src="/src/public/linkedin-logo.svg" alt="Linkedin Logo">
+          <img src="/src/public/linkedin-logo.svg" alt="Linkedin Logo" class="image is-128x128">
         </a>
         <a href="/" class="navbar-item">
-          <img src="/src/public/mail-icon.svg" alt="Contact Mail">
+          <img src="/src/public/mail-icon.svg" alt="Contact Mail" class="image is-128x128">
         </a>
       </div>
     </div>
@@ -53,20 +53,48 @@
           <p id="jobTitle" class="subtitle is-4">I am a Frontend Developer.</p>
         </div>
         <div class="column">
-          <img src="./public/YupItsme-kopi.png" alt="Hidesh Kumar">
+          <img src="/src/public/YupItsme-kopi.png" alt="Hidesh Kumar">
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="container">
-      <h1 class="title has-text-centered">What I have worked with!</h1>
-      <div class="columns is-multiline">
-        <!-- Add your icons and technologies here -->
+    <div class="container has-text-centered">
+      <h1 class="title">What I have worked with!</h1>
+      <div class="is-flex-direction-col">
+        <!-- Row 1 -->
+        <div class="is-flex-direction-row">
+          <img src="/src/public/icons/html-icon.svg" alt="" class="px-6 128x128">
+          <img src="/src/public/icons/css-icon.svg" alt="" class="px-6 128x128">
+          <img src="/src/public/icons/javascript-icon.svg" alt="" class="px-6 128x128">
+        </div>
+        
+        <!-- Row 2 -->
+        <div class="column is-narrow">
+          <img src="/src/public/icons/tailwind-icon.svg" alt="" class="px-6 128x128">
+        </div>
+        <div class="column is-narrow">
+          <img src="/src/public/icons/bootstrap-icon.svg" alt="" class="px-6 128x128">
+        </div>
+        <div class="column is-narrow">
+          <img src="/src/public/icons/css-icon.svg" alt="" class="px-6 128x128">
+        </div>
+  
+        <!-- Row 3 -->
+        <div class="column is-narrow">
+          <img src="/src/public/icons/react-icon.svg" alt="" class="px-6 128x128">
+        </div>
+        <div class="column is-narrow">
+          <img src="/src/public/icons/nextjs-icon.svg" alt="" class="px-6 128x128">
+        </div>
+        <div class="column is-narrow">
+          <img src="/src/public/icons/mysql-icon.svg" alt="" class="px-6 128x128">
+        </div>
       </div>
     </div>
   </section>
+  
 
   <footer class="footer has-background-black">
     <div class="content has-text-centered">
